@@ -78,38 +78,7 @@
 
     <div id="tgme_frame_cont"></div>
 
-    <script type="text/javascript">
-
-var protoUrl = "tg:\/\/resolve?domain=safemodstoreapk";
-if (false) {
-  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
-  var iframeEl = document.createElement('iframe');
-  iframeContEl.appendChild(iframeEl);
-  var pageHidden = false;
-  window.addEventListener('pagehide', function () {
-    pageHidden = true;
-  }, false);
-  window.addEventListener('blur', function () {
-    pageHidden = true;
-  }, false);
-  if (iframeEl !== null) {
-    iframeEl.src = protoUrl;
-  }
-  !false && setTimeout(function() {
-    if (!pageHidden) {
-      window.location = protoUrl;
-    }
-  }, 2000);
-}
-else if (protoUrl) {
-  setTimeout(function() {
-    window.location = protoUrl;
-  }, 100);
-}
-
-
-    </script>
-    <script></script>
+    
   </body>
 </html>
 <!-- page generated in 18.98ms -->
